@@ -1,4 +1,3 @@
-
 function HEALTHCHECK(url) {
   return HEALTHCHECK_OK(url);
 }
@@ -22,4 +21,3 @@ function HEALTHCHECK_CONTAINS(url, text) {
     return 'ERROR: ' + err.message;
   }
 }
-
